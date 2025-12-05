@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Matias Fuentes – Desarrollador Web Junior</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Encabezado, Titulo inicial y creacion de los botones para las secciones creadas -->
+    <header class="header reveal">
+        <div class="header-content">
+            <h1>Matias Fuentes</h1>
+            <p>Estudiante de tercer año de Ingeniería Civil Informática en la Universidad Andrés Bello</p>
+
+            <nav class="nav">
+                <div class="nav-toggle" id="navToggle">
+                    <i class="fa fa-bars"></i>
+                </div>
+                <ul class="nav-list" id="navList">
+                    <li><a href="#about">Sobre mí</a></li>
+                    <li><a href="#proyectos">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Creacion de la seccion sobre mi y añadir imagen -->
+    <section id="about" class="about reveal">
+        <h2>Sobre Mí</h2>
+        <div class="about-container">
+
+            <div class="about-img">
+                <img src="img/Mifoto.jpg" alt="Foto de Matias Fuentes">
+            </div>
+
+            <div class="about-text">
+                <p>
+                    Soy estudiante de Ingeniería Civil Informática con interés en desarrollo web,
+                    backend y programación en general. Este portafolio muestra mi avance y práctica constante.
+                </p>
+
+                <h3>Conocimientos</h3>
+                <ul class="skills-list">
+                    <li><i class="fa-solid fa-code"></i> HTML</li>
+                    <li><i class="fa-solid fa-terminal"></i> Python</li>
+                    <li><i class="fa-solid fa-gears"></i> JavaScript</li>
+                    <li><i class="fa-solid fa-paintbrush"></i> CSS</li>
+                    <li><i class="fa-solid fa-fire"></i> Aprendizaje rápido</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- creacion de los PROYECTOS para luego añadir sus respectivsas ua -->
+    <section id="proyectos" class="projects reveal">
+        <h2>Proyectos</h2>
+        <div class="grid">
+            <article class="card">
+                <div class="thumb" style="background-image:url('img/proyecto1.png')"></div>
+                <h3>Minitienda</h3>
+                <p>proyecto de tienda web conectada a base de datos con PHP y MySQL</p>
+                <a href="http://localhost/mi_tienda/" class="btn">Ver proyecto Minitienda</a>
+            </article>
+
+            <article class="card">
+                <div class="thumb" style="background-image:url('img/proyecto2.png')"></div>
+                <h3>Clinica Moris</h3>
+                <p>proyecto pagina clinica conectada a base de datos con php, conectada con otra pagina y MySQL</p>
+                <a href="http://localhost/Clinica_Moris" class="btn">Ver proyecto Clinica_Moris</a>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contacto reveal">
+        <h2>Contacto</h2>
+        <p>Envíame un correo si quieres saber más:  
+            <strong>mffuentesb@gmail.com</strong>
+        </p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
